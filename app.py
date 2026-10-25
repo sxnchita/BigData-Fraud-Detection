@@ -58,7 +58,7 @@ def load_model():
 def load_data():
 
     return pd.read_csv(
-        "data/processed/creditcard_clean.csv"
+        "data/processed/demo_transactions.csv"
     )
 
 
